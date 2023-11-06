@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/atcpipsmsjhianpaolodolores/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsAppDbConnectionString_8FAE818152",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/mispjhianpaolodoloresdb/databases/DemoDB",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:AppDbConnectionString",
+      "dynamicId": null
+    },
+    "secrets1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/atcpipsmsjhianpaolodolores/providers/Microsoft.ServiceLinker/linkers/VaultUri_94ECF36DBE",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/ATCPIPSMSjhiandolores",
+      "type": "secrets.keyVault",
+      "connectionId": "VaultUri"
+    }
+  }
+}
